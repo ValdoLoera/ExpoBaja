@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Expo Baja</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="marcadores">Marcadores</string>
+    <string name="about">Acerca de</string>
+    <string name="tituloAplicacion">Expo Baja</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="centros_comerciales">Centros Comerciales</string>
+    <string name="bares_antros">Bares / Antros </string>
+    <string name="locales">Locales</string>
+    <string name="salir">Salir</string>
+    <string name="cerca">Cerca de mi</string>
+    <string name="Autores">Code By: «Ghost Programing»</string>
+    <string name="regresar">Regresar</string>
+    <string name="aboutme">Acerca de mi</string>
+       
+</resources>

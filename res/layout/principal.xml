@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="30dip" >
+    
+    <TextView android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/tituloAplicacion"
+      android:gravity="center"
+      android:textSize="25sp "
+      android:layout_marginBottom="20dip" />
+
+  <Button
+      android:id="@+id/Button01"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:onClick="lanzar"
+      android:text="@string/restaurantes" />
+
+  <Button
+      android:id="@+id/Button02"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:onClick="lanzar1"
+      android:text="@string/centros_comerciales" />
+
+  <Button
+      android:id="@+id/Button03"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:onClick="lanzar2"
+      android:text="@string/bares_antros" />
+
+  <Button
+      android:id="@+id/Button04"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:onClick="lanzar3"
+      android:text="@string/locales" />
+  
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lanzar4"
+        android:text="@string/cerca" />
+    
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cerrar"
+        android:text="@string/salir" />
+
+</LinearLayout>
